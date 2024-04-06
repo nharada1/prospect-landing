@@ -7,11 +7,11 @@ import { Section } from '../layout/Section';
 const Banner = () => (
   <Section>
     <CTABanner
-      title="Only pay if you're happy with the results."
+      title='No need to "Contact Sales". Reasonable and upfront pricing.'
       pricing={[
-        { option: 'New Projects', price: '$10' },
-        { option: 'Small images', price: '$0.10 each' },
-        { option: 'Large images', price: '$0.25 each' },
+        { option: 'Each New Scene', price: '$15' },
+        { option: 'Small images (Under 1000px sq)', price: '$0.10 each' },
+        { option: 'Large images (Over 1000px sq)', price: '$0.25 each' },
       ]}
       button={
         <Link href="https://creativedesignsguru.com/category/nextjs/">

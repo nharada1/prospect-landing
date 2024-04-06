@@ -29,7 +29,7 @@ const Hero = () => (
                   'count my cattle.',
                   'find an endangered species.',
                   'estimate crop coverage.',
-                  'narrow down our search area.',
+                  'narrow down my search and rescue area.',
                   'survey a wildlife population.',
                 ]}
               />
