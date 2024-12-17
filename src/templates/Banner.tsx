@@ -7,14 +7,10 @@ import { Section } from '../layout/Section';
 const Banner = () => (
   <Section>
     <CTABanner
-      title='No need to "Contact Sales". Reasonable and upfront pricing.'
-      pricing={[
-        { option: 'Each New Scene', price: '$15' },
-        { option: 'Small images (Under 1000px sq)', price: '$0.10 each' },
-        { option: 'Large images (Over 1000px sq)', price: '$0.25 each' },
-      ]}
+      title="Save the tedious work, try Prospect today."
+      subtitle="Your first scene is free!"
       button={
-        <Link href="https://creativedesignsguru.com/category/nextjs/">
+        <Link href="https://app.moonshinelabs.ai/signup">
           <Button>Get Started</Button>
         </Link>
       }

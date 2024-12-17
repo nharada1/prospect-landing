@@ -1,7 +1,8 @@
 import Link from 'next/link';
 
 import { Background } from '../background/Background';
-import { HeroNoButton } from '../hero/HeroNoButton';
+import { Button } from '../button/Button';
+import { HeroOneButton } from '../hero/HeroHeader';
 import { Section } from '../layout/Section';
 import { NavbarTwoColumns } from '../navigation/NavbarTwoColumns';
 import { Logo } from './Logo';
@@ -19,7 +20,7 @@ const Hero = () => (
     </Section>
 
     <Section yPadding="pt-20 pb-2">
-      <HeroNoButton
+      <HeroOneButton
         title={
           <>
             {'The best way to quickly \n'}
@@ -36,7 +37,12 @@ const Hero = () => (
             </span>
           </>
         }
-        description="Fast and accurate analysis of aerial images. Upfront pricing."
+        description="Fast and accurate analysis of aerial images. Upfront pricing, and your first scene is free."
+        button={
+          <Link href="https://app.moonshinelabs.ai/signup">
+            <Button xl>Try For Free</Button>
+          </Link>
+        }
       />
     </Section>
   </Background>

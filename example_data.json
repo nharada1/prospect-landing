@@ -1,0 +1,25 @@
+{
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Burned Area #86",
+        "category": "area",
+        "square_meters": 1631.3
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [-73.958, 40.8003],
+            [-73.958, 40.7903],
+            [-73.94, 40.7903],
+            [-73.94, 40.8003],
+            [-73.958, 40.8003]
+          ]
+        ]
+      }
+    }
+  ]
+}
