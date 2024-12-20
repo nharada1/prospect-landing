@@ -14,7 +14,7 @@ const Hero = () => (
     <Section yPadding="py-6">
       <NavbarTwoColumns logo={<Logo xl />}>
         <li>
-          <Link href="https://github.com/moonshinelabs-ai">GitHub</Link>
+          <Link href="#">FAQ</Link>
         </li>
       </NavbarTwoColumns>
     </Section>
@@ -37,7 +37,7 @@ const Hero = () => (
             </span>
           </>
         }
-        description="Fast and accurate analysis of aerial images. Upfront pricing, and your first scene is free."
+        description="Fast and accurate analysis of your aerial imagery. Upfront pricing, and your first scene is free."
         button={
           <Link href="https://app.moonshinelabs.ai/signup">
             <Button xl>Try For Free</Button>

@@ -32,15 +32,7 @@ const Footer = () => (
           </>
         }
       >
-        <li>
-          <Link href="/">Home</Link>
-        </li>
-        <li>
-          <Link href="/">FAQ</Link>
-        </li>
-        <li>
-          <Link href="/">Docs</Link>
-        </li>
+        <p>© 2024 Moonshine Labs</p>
       </CenteredFooter>
     </Section>
   </Background>

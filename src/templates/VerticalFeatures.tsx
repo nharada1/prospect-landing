@@ -44,7 +44,7 @@ const VerticalFeatures = () => (
       <VerticalFeatureRow
         title="Request Your Analysis"
         description="Upload your images and provide us some details about what you're looking for."
-        image="/assets/images/analysis.png"
+        image="/assets/images/upload.jpeg"
         imageAlt="Analysis illustration"
         reverse
       />
