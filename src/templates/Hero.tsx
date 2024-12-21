@@ -39,7 +39,7 @@ const Hero = () => (
         }
         description="Fast and accurate analysis of your aerial imagery. Upfront pricing, and your first scene is free."
         button={
-          <Link href="https://app.moonshinelabs.ai/signup">
+          <Link href="https://forms.gle/GpvkgSvpwbZa7drs5">
             <Button xl>Try For Free</Button>
           </Link>
         }

@@ -10,7 +10,7 @@ const Banner = () => (
       title="Save the tedious work, try Prospect today."
       subtitle="Your first scene is free!"
       button={
-        <Link href="https://app.moonshinelabs.ai/signup">
+        <Link href="https://forms.gle/GpvkgSvpwbZa7drs5">
           <Button>Get Started</Button>
         </Link>
       }
