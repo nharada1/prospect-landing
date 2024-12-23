@@ -5,7 +5,11 @@ import { CenteredFooter } from '../footer/CenteredFooter';
 import { Section } from '../layout/Section';
 import { Logo } from './Logo';
 
-const Footer = () => (
+type FooterProps = {
+  showCopyright?: boolean;
+};
+
+const Footer = ({ showCopyright = true }: FooterProps) => (
   <Background color="bg-gray-100">
     <Section>
       <CenteredFooter
@@ -31,6 +35,7 @@ const Footer = () => (
             </Link>
           </>
         }
+        showCopyright={showCopyright}
       >
         <p>© 2024 Moonshine Labs</p>
       </CenteredFooter>

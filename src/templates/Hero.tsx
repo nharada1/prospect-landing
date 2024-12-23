@@ -4,21 +4,11 @@ import { Background } from '../background/Background';
 import { Button } from '../button/Button';
 import { HeroOneButton } from '../hero/HeroHeader';
 import { Section } from '../layout/Section';
-import { NavbarTwoColumns } from '../navigation/NavbarTwoColumns';
-import { Logo } from './Logo';
 
 const ReactRotatingText = require('react-rotating-text');
 
 const Hero = () => (
   <Background color="bg-gray-100">
-    <Section yPadding="py-6">
-      <NavbarTwoColumns logo={<Logo xl />}>
-        <li>
-          <Link href="#">FAQ</Link>
-        </li>
-      </NavbarTwoColumns>
-    </Section>
-
     <Section yPadding="pt-20 pb-2">
       <HeroOneButton
         title={

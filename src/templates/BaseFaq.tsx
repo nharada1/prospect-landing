@@ -1,23 +1,19 @@
 import { Background } from '../background/Background';
 import { Meta } from '../layout/Meta';
 import { AppConfig } from '../utils/AppConfig';
-import { Banner } from './Banner';
+import { FaqFeatures } from './FaqFeatures';
 import { Footer } from './Footer';
-import { Hero } from './Hero';
 import { Navbar } from './Navbar';
-import { VerticalFeatures } from './VerticalFeatures';
 
-const Base = () => (
+const BaseFaq = () => (
   <div className="text-gray-600 antialiased">
     <Meta title={AppConfig.title} description={AppConfig.description} />
     <Background color="bg-gray-100">
       <Navbar />
-      <Hero />
     </Background>
-    <VerticalFeatures />
-    <Banner />
-    <Footer showCopyright={false} />
+    <FaqFeatures />
+    <Footer showCopyright={true} />
   </div>
 );
 
-export { Base };
+export { BaseFaq };

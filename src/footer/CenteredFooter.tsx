@@ -7,6 +7,7 @@ type ICenteredFooterProps = {
   logo: ReactNode;
   iconList: ReactNode;
   children: ReactNode;
+  showCopyright?: boolean;
 };
 
 const CenteredFooter = (props: ICenteredFooterProps) => (
@@ -24,7 +25,7 @@ const CenteredFooter = (props: ICenteredFooterProps) => (
     </div>
 
     <div className="mt-8 text-sm">
-      <FooterCopyright />
+      {props.showCopyright !== false && <FooterCopyright />}
     </div>
 
     <style jsx>
