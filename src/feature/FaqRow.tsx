@@ -1,6 +1,8 @@
+import type { ReactNode } from 'react';
+
 type FaqRowProps = {
   question: string;
-  answer: string;
+  answer: ReactNode;
 };
 
 const FaqRow = (props: FaqRowProps) => {

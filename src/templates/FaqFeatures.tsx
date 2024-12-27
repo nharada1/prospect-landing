@@ -28,7 +28,19 @@ const FaqFeatures = () => (
     />
     <FaqRow
       question="Can you help collect imagery?"
-      answer="We can purchase satellite/aerial imagery through our partners, or help you collect drone imagery. Please contact us for more information."
+      answer={
+        <>
+          We can purchase satellite/aerial imagery through our partners, or help
+          you collect drone imagery. Please{' '}
+          <a
+            href="mailto:hello@moonshinelabs.ai"
+            className="text-primary-500 hover:underline"
+          >
+            contact us
+          </a>{' '}
+          for more information.
+        </>
+      }
     />
     <FaqRow
       question="Will you open up your software so I can use it myself?"
