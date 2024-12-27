@@ -4,7 +4,18 @@ import { Section } from '../layout/Section';
 const FaqFeatures = () => (
   <Section
     title="Frequently Asked Questions"
-    description="Can't find the answer you're looking for? Please contact us."
+    description={
+      <>
+        Can&apos;t find the answer you&apos;re looking for? Please{' '}
+        <a
+          href="mailto:hello@moonshinelabs.ai"
+          className="text-primary-500 hover:underline"
+        >
+          contact us
+        </a>
+        .
+      </>
+    }
     yPadding="py-12"
   >
     <FaqRow
