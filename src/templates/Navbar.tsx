@@ -10,6 +10,9 @@ const Navbar = () => (
       <li>
         <Link href="/faq">FAQ</Link>
       </li>
+      <li>
+        <a href="mailto:hello@moonshinelabs.ai">Contact Us</a>
+      </li>
     </NavbarTwoColumns>
   </Section>
 );
