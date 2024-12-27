@@ -16,6 +16,10 @@ const FaqFeatures = () => (
       answer="Not yet, if this is something that would be useful to you please let us know!"
     />
     <FaqRow
+      question="Can you help collect imagery?"
+      answer="We can purchase satellite/aerial imagery through our partners, or help you collect drone imagery. Please contact us for more information."
+    />
+    <FaqRow
       question="Will you open up your software so I can use it myself?"
       answer="We'd like to develop a platform for you to use yourself, we're working on it!"
     />
